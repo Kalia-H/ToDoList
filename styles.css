@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background-color: black;
+    color: grey;
+}
+#list {
+    margin-top: 10px;
+    background-color: lightgray;
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+#title {
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+input {
+    background-color: black;
+    box-shadow: 0 0 7px grey;
+    color: grey;
+}
+table {
+    border-spacing: 17px 5px;
+    background-color: black;
+    box-shadow: 0 0 8px grey;
+}
+th {
+    text-align: left;
+    text-decoration: underline;
+}
+button{
+    background-color: black;
+    color: red;
+}
+button:hover {
+    box-shadow: 0 0 7px red;
+}
+#plusButton {
+    color: cyan;
+}
+#plusButton:hover {
+    box-shadow: 0 0 7px cyan;
+}
+
+
+

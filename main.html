@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">To-Do List</h1>
+        <form>
+            <input id="task" type="text" placeholder="task">
+            <input id="priority" type="text" placeholder="priority">
+            <button id="plusButton" onclick="addIt(event)">+</button>
+        </form>
+        <div id="list">
+            <table id="table">
+                <tr>
+                    <th>Task</th>
+                    <th>Priority</th>
+                </tr>
+                <tr>
+                    <td id="taskone">Code</td>
+                    <td id="pone">High</td>
+                    <td><button>-</button></td>
+                </tr>
+                <tr>
+                    <td id="tasktwo">Find a Job</td>
+                    <td id="ptwo">High</td>
+                    <td><button>-</button></td>
+                </tr>
+                <tr>
+                    <td id="taskthree">Grocery Shopping</td>
+                    <td id="pthree">Medium</td>
+                    <td><button>-</button></td>
+                </tr>
+                <tr>
+                    <td id="taskfour">Math HW</td>
+                    <td id="pfour">Low</td>
+                    <td><button>-</button></td>
+                </tr>
+            </table>
+        </div>
+        <script src="function.js"></script>
+    </body>
+</html>
