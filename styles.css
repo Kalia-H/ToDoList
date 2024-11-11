@@ -24,7 +24,7 @@ input {
 table {
     border-spacing: 17px 5px;
     background-color: black;
-    box-shadow: 0 0 8px grey;
+    box-shadow: 0 0 8.5px grey;
 }
 th {
     text-align: left;
